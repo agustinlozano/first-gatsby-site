@@ -1,7 +1,7 @@
 import * as React from 'react'
-import Hello from './components/Hello'
-import Occupation from './components/Occupation'
-import Links from './components/Links'
+import Hello from '../components/Hello/Hello'
+import Occupation from '../components/Occupation/Occupation'
+import Links from '../components/Links/Links'
 
 // styles
 const pageStyles = {
@@ -14,7 +14,7 @@ const pageStyles = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>- Agustin Lozano</title>
       <Hello />
       <Occupation />
       <Links />
