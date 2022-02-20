@@ -20,7 +20,7 @@
 
 2.  **Initialize it using the following command in the project folder.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into the site’s directory and start it up.
 
     ```shell
     npm run develop
