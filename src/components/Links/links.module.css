@@ -1,0 +1,17 @@
+.list {
+  margin-bottom: 96;
+  padding-left: 0;
+}
+.linkStyle {
+  color: #8954A8;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: 5%;
+}
+.description {
+  color: #232129;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 1.25;
+}
