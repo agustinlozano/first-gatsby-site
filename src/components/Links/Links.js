@@ -49,7 +49,7 @@ const links = [
   }
 ]
 
-const Links = () =>
+const OurLinks = () =>
   <ul className={list}>
     {links.map(link => (
       <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
@@ -71,4 +71,4 @@ const Links = () =>
     ))}
   </ul>
 
-export default Links
+export default OurLinks
