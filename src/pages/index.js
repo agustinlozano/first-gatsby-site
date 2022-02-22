@@ -3,6 +3,7 @@ import Hello from '../components/Hello/Hello'
 import Occupation from '../components/Occupation/Occupation'
 import OurLinks from '../components/Links/Links'
 import Layout from '../components/Layout/Layout'
+import { StaticImage } from 'gatsby-plugin-image'
 
 // styles
 const pageStyles = {
@@ -18,6 +19,10 @@ const IndexPage = () => {
       <title>- Agustin Lozano</title>
       <Layout pageTitle='About Me'>
         <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+        <StaticImage
+          alt='Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera'
+          src='../images/dog.jpg'
+        />
       </Layout>
       <Hello />
       <Occupation />
