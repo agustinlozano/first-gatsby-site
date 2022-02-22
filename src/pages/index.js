@@ -16,7 +16,6 @@ const pageStyles = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>- Agustin Lozano</title>
       <Layout pageTitle='About Me'>
         <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
         <StaticImage
