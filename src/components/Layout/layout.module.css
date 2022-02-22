@@ -6,12 +6,12 @@
 .heading {
   color: rebeccapurple;
 }
-.navLinks {
+.nav-links {
   display: flex;
   list-style: none;
   padding-left: 0;
 }
-.navLinkItem {
+.nav-link-item {
   padding-right: 2rem;
 }
 .nav-link-text {
